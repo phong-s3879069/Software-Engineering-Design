@@ -1,0 +1,15 @@
+In C++, files are mainly dealt by using following three classes available in 
+<fstream> header file.
+# ofstream: allow you to open (or create) a file as an output stream. ie. WRITE
+# Ifstream : allow you to open file as an input stream   ie. READ
+# fstream : allow you to open (or create)  a file as
+            either an input or output stream.    ie. Both READ/WRITE
+
+
+Writing to and Reading from a File with C++
+
+1. Writing to a File: we can use stream insertion operator (<<) with 
+ofstream or fstream object (instead of cout object for console output).
+2. Reading from a File: we can use stream extraction operator (>>) with 
+ifstream or fstream object (instead of cin object for console input).
+
